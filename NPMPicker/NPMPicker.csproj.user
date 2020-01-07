@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\ush-nt-3\v1\Users\INSAUT\PLANTA_3\TECNICOS_3\Programacion\Software\Matias\NPMPicker\|//ush-nt-3/v1/Users/INSAUT/PLANTA_3/TECNICOS_3/Programacion/Software/Matias/NPMPicker/|C:\Users\mflores\Desktop\VISUALSTUDIO\NPMPicker\|\\10.30.10.12\v1\Users\INSAUT\PLANTA_3\TECNICOS_3\Programacion\Software\Matias\NPMPicker\|C:\Users\mflores\Desktop\VISUALSTUDIO\NPMPicker\publish\</PublishUrlHistory>
+    <InstallUrlHistory>\\10.30.10.12\v1\Users\INSAUT\PLANTA_3\TECNICOS_3\Programacion\Software\Matias\NPMPicker\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\10.30.10.12\v1\Users\INSAUT\PLANTA_3\TECNICOS_3\Programacion\Software\Matias\NPMPicker\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
