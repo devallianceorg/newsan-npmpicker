@@ -15,6 +15,7 @@ namespace NPMPicker.Cogiscan
             int linea = Config.config_linea;
             string po = "";
             var json="";
+            // Deprecar
             string url = "http://arushap34/iaserver/public/cogiscan/db2/opByComplexTool/" + linea;
             using (var webClient = new WebClient())
             {

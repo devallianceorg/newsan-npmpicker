@@ -28,6 +28,7 @@ namespace NPMPicker
         private void Initialize()
         {
             string connectionString;
+            // Deprecar
             connectionString = "SERVER=" + Mysql.server + ";" + "DATABASE=" + Mysql.database + ";" + "UID=" + Mysql.user + ";" + "PASSWORD=" + Mysql.password + ";";
             connection = new MySqlConnection(connectionString);
         }

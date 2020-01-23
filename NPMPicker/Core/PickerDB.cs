@@ -37,7 +37,7 @@ namespace NPMPicker
            
             string ver = Utilidades.Version();
             string host = Dns.GetHostEntry(Dns.GetHostName()).HostName.ToString();
-            
+            // Deprecar
             query = @"select id,flag from `npmpicker`.`ping` where id_linea = '" + linea + "' and maquina = '" + maquina + "' limit 1";
             DataTable dt = sql.Select(query);
             if (dt.Rows.Count > 0)
@@ -94,7 +94,7 @@ namespace NPMPicker
         {
             Mysql sql = new Mysql();
             string count_sql = "";
-
+            // Deprecar
             if (actual_total_error == total_error)
             {
                 count_sql = " count = (count + 1) ";
@@ -114,6 +114,7 @@ namespace NPMPicker
 
         private void insertStat()
         {
+            // Deprecar
             Mysql sql = new Mysql();
             string query = @"
                 INSERT INTO  `npmpicker`.`stat` (
@@ -145,8 +146,8 @@ namespace NPMPicker
 
         public void insertData()
         {
+            // Deprecar
             Mysql sql = new Mysql();
-
             string query = @"
                 INSERT INTO  `npmpicker`.`data` (
                 `id` ,
@@ -169,6 +170,7 @@ namespace NPMPicker
 
         public void getStatInfo()
         {
+            // Deprecar
             Mysql sql = new Mysql();
             string query = @"
             SELECT 
@@ -209,6 +211,7 @@ namespace NPMPicker
 
         public static string getTurno()
         {
+            // Deprecar
             Mysql sql = new Mysql();
             string query = @"SELECT turno FROM `npmpicker`.`turnos` where curtime() between desde and hasta limit 1";
             //string query = @"SELECT IF(HOUR(CURTIME()) >= '00' and HOUR(CURTIME()) < '15','M','T') as turno";
